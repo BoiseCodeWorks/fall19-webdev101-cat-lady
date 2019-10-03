@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <img id="cat-img" class="img-fluid" alt="" srcset="" />
+          <h1>Name:&nbsp;<span id="cat-name"></span></h1>
+          <h4>Pet Count: <span id="cat-petcount"></span></h4>
+          <h5 id="cat-mood"></h5>
+          <button class="btn btn-danger" onclick="pet()">Pet</button>
+          <button class="btn btn-success" onclick="giveCatnip()">
+            Cat Nip
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
